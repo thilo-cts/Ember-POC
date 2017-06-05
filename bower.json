@@ -1,5 +1,6 @@
 {
   "name": "new-app",
   "dependencies": {
+    "underscore": "^1.8.3"
   }
 }

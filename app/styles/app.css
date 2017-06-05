@@ -1,0 +1,18 @@
+.box{
+        border: 1px solid grey;
+    width: 100px;
+    height: 100px;
+    margin: 17px;
+    text-align: center;
+}
+.description{
+    font-size: 20px;
+}
+.box .icon-holder{
+        margin-bottom: 21px;
+}
+.content{
+    font-size: 16px;
+    margin: 10px;
+    border: 1px solid gray;
+}

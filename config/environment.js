@@ -5,7 +5,7 @@ module.exports = function(environment) {
     modulePrefix: 'new-app',
     environment: environment,
     rootURL: '/',
-    locationType: 'auto',
+    locationType: 'auto', // history,auto, none, hash 
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
@@ -20,11 +20,14 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
+    },
+    contentSecurityPolicy: {
+     'connect-src' : "https://twilio-client-thilojith.c9users.io"
     }
   };
 
   if (environment === 'development') {
-    // ENV.APP.LOG_RESOLVER = true;
+     ENV.APP.LOG_RESOLVER = true;
     // ENV.APP.LOG_ACTIVE_GENERATION = true;
     // ENV.APP.LOG_TRANSITIONS = true;
     // ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
