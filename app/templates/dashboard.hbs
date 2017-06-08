@@ -1,5 +1,7 @@
 {{#each model as |box|}} 
+{{#link-to 'dashboard.show' box.id class="col-sm-2 box"}}
 {{box-list item=box }}
+ {{/link-to}}
 {{/each}}
 
 {{outlet}}
