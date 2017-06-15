@@ -1,0 +1,18 @@
+.welcome img{
+    height: 200px
+}
+.welcome h2.heading{
+    position: relative;
+    bottom: 100px;
+    color: white;
+    text-align: center
+}
+.link{
+        float: right;
+    font-size: 20px;
+    color: black;
+    text-decoration: underline;
+}
+.link:hover{
+    color: black;
+}
