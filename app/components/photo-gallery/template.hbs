@@ -1,0 +1,9 @@
+<div class="container">
+    <div class="row gallery" >Gallery</div>
+{{#each photos as |photo index|}}
+
+<div class="col-lg-2 image-card">
+        <img src="{{photo.url}}" alt="{{photo.title}}" title="{{photo.title}}">
+  </div>
+{{/each}}
+</div>
