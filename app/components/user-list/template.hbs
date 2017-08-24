@@ -1,0 +1,12 @@
+Users
+<button type="button" {{action "fetchUsers"}}>Get users</button>
+<br>
+{{#each users as |user|}}
+  {{user.firstName}} - {{user.lastName}} <br>
+  {{else}}
+  sorry! no users
+{{/each}}
+
+<br><br>
+
+{{error.detail}}
